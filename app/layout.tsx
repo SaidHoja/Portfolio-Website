@@ -1,4 +1,8 @@
+"use client"
 import '../styles/globals.css'
+import Navbar from "../components/navbar"
+import { ThemeProvider } from 'next-themes'
+
 
 export default function RootLayout({
   children,
@@ -8,10 +12,15 @@ export default function RootLayout({
   return (
     <html lang="en">
       {
-        
+
       }
-      <head />
-      <body>{children}</body>
+      <head/>
+      <body>
+        <ThemeProvider enableSystem = {true} attribute='class' >
+          <Navbar/>
+          {children}
+        </ThemeProvider>
+        </body>
     </html>
   )
 }
