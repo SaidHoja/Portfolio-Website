@@ -9,16 +9,16 @@ const projects = [
       name: "Transfer Guide",
       description:
         "",
-      image: "/thankfulthoughts.png",
+      image: "/headshot.jpeg",
       github: "https://github.com/saidhoja/transfer-guide",
-      link: "https://thankfulthoughts.io/",
+      link: "",
     },
     {
       name: "Portfolio Website",
       description: "",
-      image: "/platoio.png",
-      github: "https://github.com/hqasmei/platoio",
-      link: "https://platoio.com/register",
+      image: "/headshot.jpeg",
+      github: "",
+      link: "",
     },
   ]
 
