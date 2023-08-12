@@ -1,7 +1,12 @@
-import Image from 'next/image'
-
+import Hero from "../components/hero"
+import About from "../components/about"
+import Projects from "../components/projects"
 export default function Home() {
   return (
-    <p className="text-xl"> Hello</p>
+    <main className = "mx-auto max-w-3xl px-4 sn:px-4 md:max-w-5xl">
+      <Hero/>
+      <About/>
+      <Projects/>
+    </main>
   )
 }

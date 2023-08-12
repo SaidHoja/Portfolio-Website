@@ -14,7 +14,7 @@ interface NavItem {
 const NAV_ITEMS: Array<NavItem> = [
   {
     label: "Home",
-    page: "home",
+    page: "hero",
   },
   {
     label: "About",
@@ -24,6 +24,11 @@ const NAV_ITEMS: Array<NavItem> = [
     label: "Projects",
     page: "projects",
   },
+
+  {
+    label: "Experience",
+    page: "experience",
+  }
 ];
 
 export default function Navbar() {
