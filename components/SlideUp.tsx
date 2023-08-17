@@ -9,7 +9,7 @@ interface Props {
 
 export default function SlideUp({ children, offset = "0px" }: Props) {
   const ref = useRef(null)
-
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {

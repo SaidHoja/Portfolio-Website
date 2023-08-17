@@ -16,9 +16,9 @@ export default function Hero(){
                     className="rounded-full grow-0 shrink-0"/>
                 </div>
                 <div className="md:mt-2 md:w-3/5">
-                    <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-6xl">Hey, I'm Saidamir</h1>
+                    <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-6xl">Hey, I&apos;m Saidamir</h1>
                     <p className="text-lg mt-4 mb-6 md:text-lg">
-                        I'm a computer science student at the University of Virginia aiming to become a backend/full-stack software engineer.
+                        I&apos;m a computer science student at the University of Virginia aiming to become a backend/full-stack software engineer.
                     </p>
                     <Link
                     to="projects"
