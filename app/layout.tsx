@@ -17,11 +17,11 @@ export default function RootLayout({
 
       }
       <head/>
-      <body>
-        <ThemeProvider enableSystem = {true} defaultTheme = "dark" attribute='class' >
-          <Navbar/>
-          {children}
-        </ThemeProvider>
+        <body>
+          <ThemeProvider enableSystem = {true} defaultTheme = "dark" attribute='class' >
+            <Navbar/>
+            {children}
+          </ThemeProvider>
 
         </body>
     </html>

@@ -2,6 +2,10 @@ import React from "react";
 import Image from "next/image";
 
 const skills = [
+  { skill: "Java" },
+  { skill: "Python" },
+  { skill: "C/C++" },
+  { skill: "Docker" },
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
@@ -11,10 +15,6 @@ const skills = [
   { skill: "Tailwind CSS" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Java" },
-  { skill: "Python" },
-  { skill: "C/C++" },
-  { skill: "Docker" },
 ];
 
 export default function About() {

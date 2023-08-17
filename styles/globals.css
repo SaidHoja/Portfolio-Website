@@ -15,7 +15,3 @@
       --background-end-rgb: 255, 255, 255;
     }
   }
-
-  .highlight {
-    color: var(--highlight);
-  }

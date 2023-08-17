@@ -8,17 +8,12 @@ const projects = [
     {
       name: "Transfer Guide",
       description:
-        "",
-      image: "/headshot.jpeg",
+        "Transfer Guide web application built with Django and Bootstrap. Designed to allow student users to request transfer credit for UVA courses and admin users to handle requests.",
+      technologies:
+        "Django, Python, PyTest, HTML, CSS, Bootstrap, Git, GitHub Actions",
+      image: "/TransferGuideLogo.png",
       github: "https://github.com/saidhoja/transfer-guide",
-      link: "",
-    },
-    {
-      name: "Portfolio Website",
-      description: "",
-      image: "/headshot.jpeg",
-      github: "",
-      link: "",
+      link: "https://transfer-guide-uva-project-4999cb69ba91.herokuapp.com/",
     },
   ]
 
@@ -50,7 +45,7 @@ export default function Projects(){
                   </div>
                   <div className="mt-8 md:w-1/2">
                     <h1 className="text-4xl font-bold mb-6">{project.name}</h1>
-                    <p className="text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400">
+                    <p className="text-md leading-7 mb-4">
                       {project.description}
                     </p>
                     <div className="flex flex-row align-bottom space-x-4">
