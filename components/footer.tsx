@@ -24,7 +24,7 @@ export default function Footer(){
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/saidamir-umarkhodjaev/"
+            href="https://www.linkedin.com/in/saidamir-umarkhodjaev-037700210/"
             rel="noreferrer"
             target="_blank"
           >
