@@ -10,7 +10,7 @@ export default function Hero(){
         <section id = "hero">
             <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
                 <div className="md:mt-2 md:w-1/2">
-                    <Image src = "/../public/headshot2.jpeg" alt = "" 
+                    <Image src = "/headshot2.jpeg" alt = "" 
                     width={300}
                     height={300}
                     className="rounded-full grow-0 shrink-0"/>
