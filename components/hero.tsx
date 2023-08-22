@@ -20,6 +20,7 @@ export default function Hero(){
                     <p className="text-lg mt-4 mb-6 md:text-lg">
                         I&apos;m a computer science student at the University of Virginia aiming to become a backend/full-stack software engineer.
                     </p>
+                    <button>
                     <Link
                     to="projects"
                     className="text-neutral-200 font-semibold px-6 py-3 highlight rounded shadow bg-green-800 hover:bg-green-900"
@@ -31,6 +32,7 @@ export default function Hero(){
                     >
                     See My Work
                     </Link>
+                    </button>
                 </div>
             </div>
         </section>

@@ -1,11 +1,12 @@
 import React from "react"
-import { CopyToClipboard } from "react-copy-to-clipboard"
 import {
     AiOutlineGithub,
     AiOutlineLinkedin,
-    AiOutlineMail
+    AiOutlineMail,
 }
 from "react-icons/ai"
+import {FaRegChessBishop} from "react-icons/fa6"
+
 export default function Footer(){
 
 
@@ -41,6 +42,16 @@ export default function Footer(){
             <AiOutlineMail
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
+            />
+          </a>
+          <a
+                href="mailto:saidhojabusiness@gmail.com"
+                rel="noreferrer"
+                target="_blank"
+            >
+            <FaRegChessBishop
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={23}
             />
           </a>
         </div>
