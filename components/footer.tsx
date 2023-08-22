@@ -45,7 +45,7 @@ export default function Footer(){
             />
           </a>
           <a
-                href="mailto:saidhojabusiness@gmail.com"
+                href="https://www.chess.com/member/saidhoja"
                 rel="noreferrer"
                 target="_blank"
             >
