@@ -32,8 +32,8 @@ export default function About() {
             <p>&emsp;Outside of school and work I like to play and drink tea. Add me on <a href = "https://www.chess.com/members/saidhoja" className = "font-bold">chess.com</a> if you would like to play sometime! </p>
             <br></br>
             <div className = "flex justify-center">
-            <button className = " font-semibold px-6 py-3 highlight rounded shadow bg-green-800 hover:bg-green-900">
-              <a href = "Umarkhodjaev,SaidamirResume.pdf" download>Resume</a>
+            <button className = " font-semibold px-6 py-3 highlight rounded shadow bg-green-700 hover:bg-green-900">
+              <a href = "/Umarkhodjaev, Saidamir Resume.pdf" download>Resume</a>
             </button>
             </div>
           </div>
