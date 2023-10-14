@@ -35,7 +35,7 @@ export default function Footer(){
             />
           </a>
           <a
-                href="mailto:saidhojabusiness@gmail.com"
+                href="mailto:sumarkhodjaev@gmail.com"
                 rel="noreferrer"
                 target="_blank"
             >
