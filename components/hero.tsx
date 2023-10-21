@@ -23,7 +23,7 @@ export default function Hero(){
                     <button>
                     <Link
                     to="projects"
-                    className="text-neutral-200 font-semibold px-6 py-3 highlight rounded shadow bg-green-800 hover:bg-green-900"
+                    className="text-white font-semibold px-6 py-3 highlight rounded shadow bg-green-800 hover:bg-green-900"
                     activeClass="active"
                     spy={true}
                     smooth={true}

@@ -3,6 +3,7 @@ import Image from "next/image";
 
 const skills = [
   { skill: "Java" },
+  { skill: "Spring Boot" },
   { skill: "Python" },
   { skill: "C/C++" },
   { skill: "Docker" },
@@ -32,7 +33,7 @@ export default function About() {
             <p>&emsp;Outside of school and work I like to play and drink tea. Add me on <a href = "https://www.chess.com/members/saidhoja" className = "font-bold">chess.com</a> if you would like to play sometime! </p>
             <br></br>
             <div className = "flex justify-center">
-            <button className = " font-semibold px-6 py-3 highlight rounded shadow bg-green-700 hover:bg-green-900">
+            <button className = " font-semibold px-6 py-3 highlight rounded shadow text-white bg-green-700 hover:bg-green-900">
               <a href = "/Umarkhodjaev, Saidamir Resume.pdf" target="_blank">Resume</a>
             </button>
             </div>
@@ -44,7 +45,7 @@ export default function About() {
                 return (
                   <p
                     key={idx}
-                    className="bg-green-700 px-4 py-2 mr-2 mt-2 rounded font-semibold"
+                    className="bg-green-700 text-white px-4 py-2 mr-2 mt-2 rounded font-semibold"
                   >
                     {item.skill}
                   </p>
