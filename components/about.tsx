@@ -33,7 +33,7 @@ export default function About() {
             <br></br>
             <div className = "flex justify-center">
             <button className = " font-semibold px-6 py-3 highlight rounded shadow bg-green-700 hover:bg-green-900">
-              <a href = "/Umarkhodjaev, Saidamir Resume.pdf">Resume</a>
+              <a href = "/Umarkhodjaev, Saidamir Resume.pdf" target="_blank">Resume</a>
             </button>
             </div>
           </div>
