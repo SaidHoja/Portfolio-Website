@@ -30,7 +30,7 @@ export default function About() {
           <div className="md:w-1/2 flex-col">
             <h1 className="text-2xl font-bold mb-6 text-center">Get to know me!</h1>
             <p>&emsp;Hello, my name is Saidamir, and I am an inspiring software engineer based in the Washington D.C. area. I am currently looking for an internship position anywhere in the United States for any time of the year. </p>
-            <p>&emsp;Outside of school and work I like to play and drink tea. Add me on <a href = "https://www.chess.com/members/saidhoja" className = "font-bold">chess.com</a> if you would like to play sometime! </p>
+            <p>&emsp;Outside of school and work I like to play chess and drink tea. Add me on <a href = "https://www.chess.com/members/saidhoja" className = "font-bold">chess.com</a> if you would like to play sometime! </p>
             <br></br>
             <div className = "flex justify-center">
             <button className = " font-semibold px-6 py-3 highlight rounded shadow text-white bg-green-700 hover:bg-green-900">
