@@ -14,7 +14,7 @@ const projects = [
       " This project was undertaken as a part of VTHacks 24 and completed in 36 hours on a team of 3.",
     technologies:
       "Sveltekit, MongoDB, Perplixity AI, HTML, Tailwind CSS, JavaScript, Git",
-    image: "/NuHomesLogo.svg",
+    image: "/nuhomeslogo.svg",
     github: "https://github.com/saidhoja/nuhomes",
     link: "https://nuhomes.co",
     height: 350,
